@@ -1,5 +1,81 @@
+#ai{
+  position: absolute;
+  left:20%;
+}
+
+footerr{
+  color: blue;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-0.3.5&s=d8791fe0f9f4e735158400f9daf6a558&auto=format&fit=crop&w=1302&q=80');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.one{
+  position: absolute;
+  top: 1%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.onee{
+  position: absolute;
+  top: 5%;
+}
+.two{
+  position: absolute;
+  top: 10%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.three{
+  position: absolute;
+  top: 19%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.four{
+  position: absolute;
+  top:28%;
+  color: white;
+}
+
+.fourr{
+  position: absolute;
+  top:38%;
+  color: white;
+}
+.faqStuff{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.faq{
+  border: 2px solid #31a3d1;
+  padding: 10px;
+  width: 155px;
+  color: #31a3d1;
+  border-radius: 8px;
+  background-color: Transparent;
+  position: absolute;
+  left: 89%;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
 #bottomFont{
   font-family: arial;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #No{
@@ -100,6 +176,18 @@
   background-color: #31a3d1;
   color: white;
 }
+.clear{
+  border: 2px solid #31a3d1;
+  padding: 10px;
+  width: 180px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #31a3d1;
+  border-radius: 8px;
+  background-color: Transparent;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
 .header{
   padding: 0px;
   text-align: center;
@@ -116,18 +204,24 @@ body{
   position: absolute;
   top: 5%;
   left: 5%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .hii{
   position: absolute;
   top: 14%;
   left: 5%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .ho{
   position: absolute;
   top: 23%;
   left: 5%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #title{
 
@@ -161,6 +255,25 @@ body{
 .location {
   background: #27293D;
   width: 320px;
+  margin:0 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 150px;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: 1050px;
+  top: 210px;
+  border-radius: 25px;
+
+}
+.location1 {
+  background: #27293D;
+  width: 320px;
+  margin:0 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 150px;
   border: 1px solid black;
   margin: 0;
@@ -181,6 +294,8 @@ body{
   background: white;
   font-family: arial;
 }
+
+
 
 .input {
   position: absolute;
@@ -407,13 +522,13 @@ nav ul li a:hover {
 }
 
 header h1 {
+  position: absolute;
+  top: 1%;
   color: white;
   font-family: 'Josefin Sans', 'Roboto', Helvetica, sans-serif;
   padding: 10px;
   font-size: 50px;
-  text-align: center;
-   margin-bottom: 8px;
-   margin-top: 60px;
+
 }
 
 header p {
@@ -426,13 +541,14 @@ header p {
 }
 
 header button {
+
   border: 2px solid #31a3d1;
   padding: 10px;
   width: 155px;
   font-family: 'Josefin Sans', sans-serif;
   color: #31a3d1;
   transition: all 0.2s linear;
-  border-radius: 500px;
+  border-radius: 8px;
   margin-top: 20px;
   font-size: 19px;
    margin-bottom: 60px;
