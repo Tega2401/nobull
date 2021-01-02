@@ -31,25 +31,27 @@
 }
 
 #ai{
-  color: white;
+  color: black;
   position: absolute;
   left:20%;
   font-weight: bold;
   top: 165%;
 }
 #aii{
+  color: black;
   position: absolute;
   left: 40%;
   top: 165%;
 }
 #aiii{
+  color: black;
   position: absolute;
   left: 60%;
   top: 165%;
 }
 #aiiii{
   position: absolute;
-  color: white;
+  color: black;
   left:80%;
   top:165%;
 }
