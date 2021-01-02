@@ -1,6 +1,51 @@
+#fourthimg{
+  position: absolute;
+  left:25%;
+  top:145%;
+  height:15vh;
+}
+
+#thirdimg{
+  position: absolute;
+  left: 55%;
+  top: 145%;
+  height: 15vh;
+}
+#secondimg{
+  position: absolute;
+  left: 40%;
+  top: 145%;
+  height: 15vh;
+}
+#firstimg{
+  position: absolute;
+  left:78%;
+  top: 145%;
+  height:15vh;
+}
+
 #ai{
+  color: black;
   position: absolute;
   left:20%;
+  font-weight: bold;
+  top: 165%;
+}
+#aii{
+  position: absolute;
+  left: 40%;
+  top: 165%;
+}
+#aiii{
+  position: absolute;
+  left: 60%;
+  top: 165%;
+}
+#aiiii{
+  position: absolute;
+  color: black;
+  left:80%;
+  top:165%;
 }
 
 footerr{
