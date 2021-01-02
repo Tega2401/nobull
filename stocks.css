@@ -114,6 +114,7 @@ footerr{
 }
 
 #bottomFont{
+  background-color: white;
   font-family: arial;
   text-align: center;
   height: 50vh;
