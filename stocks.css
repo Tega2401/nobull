@@ -25,7 +25,7 @@
 }
 
 #ai{
-  color: black;
+  color: white;
   position: absolute;
   left:20%;
   font-weight: bold;
@@ -43,7 +43,7 @@
 }
 #aiiii{
   position: absolute;
-  color: black;
+  color: white;
   left:80%;
   top:165%;
 }
