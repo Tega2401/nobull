@@ -6,6 +6,46 @@
   <h1 id = "title" style= "color: black; color: #D6ED17FF"> NoBull Finance </h1>
   <h2 style="text-align: center"><input class="inputTicker" placeholder="  Enter Ticker Stock"></br>
 
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"></a></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500"
+        },
+        {
+          "proName": "FOREXCOM:NSXUSD",
+          "title": "Nasdaq 100"
+        },
+        {
+          "proName": "FX_IDC:EURUSD",
+          "title": "EUR/USD"
+        },
+        {
+          "proName": "BITSTAMP:BTCUSD",
+          "title": "BTC/USD"
+        },
+        {
+          "proName": "BITSTAMP:ETHUSD",
+          "title": "ETH/USD"
+        },
+        {
+          "description": "Dow 30",
+          "proName": "NYSE:DOW"
+        }
+      ],
+      "colorTheme": "light",
+      "isTransparent": true,
+      "showSymbolLogo": true,
+      "locale": "en"
+    }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
 
   <div class="symbol-container">
 
@@ -21,18 +61,25 @@
   <title> Stocks </title>
 
   <section class="location">
-    <div class="hu"> Beta </div>
-    <div class="hii"> EPS </div>
-    <div class="ho"> P/E Ratio </div>
+    <div class ='stats'> Key Stats </div>
+    <section class="location2">
+    <div class='input2'> </div>
+    </section>
+
 
 
 
 
 
     <div class="input">  </div>
+    <div id='result'> </div>
 
 
+  </section>
 
+  <section class="about">
+    <div class='abouttxt'> About </div>
+    <div class="output"></div>
   </section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"> </script type="text/javascript">
