@@ -4,24 +4,35 @@
     font-family: 'Quicksand', sans-serif;
 
 }
+
 #fourthimg{
   position: absolute;
-  left:25%;
+  left:11%;
   top:145%;
   height:15vh;
 }
 
+#fourthimg:hover{
+  transform: translateY(-10px);
+}
+
 #thirdimg{
   position: absolute;
-  left: 55%;
+  left: 53.55%;
   top: 145%;
   height: 15vh;
 }
+#thirdimg:hover{
+  transform: translateY(-10px);
+}
 #secondimg{
   position: absolute;
-  left: 40%;
-  top: 145%;
+  left: 30%;
+  top: 146%;
   height: 15vh;
+}
+#secondimg:hover{
+  transform: translateY(-10px);
 }
 #firstimg{
   position: absolute;
@@ -29,30 +40,31 @@
   top: 145%;
   height:15vh;
 }
+#firstimg:hover{
+  transform: translateY(-10px);
+}
 
 #ai{
   color: black;
   position: absolute;
-  left:20%;
+  left:9%;
   font-weight: bold;
   top: 165%;
 }
 #aii{
-  color: black;
   position: absolute;
-  left: 40%;
+  left: 30%;
   top: 165%;
 }
 #aiii{
-  color: black;
   position: absolute;
-  left: 60%;
+  left: 57.5%;
   top: 165%;
 }
 #aiiii{
   position: absolute;
   color: black;
-  left:80%;
+  left:78%;
   top:165%;
 }
 
