@@ -1,3 +1,30 @@
+.inputtt{
+  color:#A9A9A9;
+  font-size: 20px;
+}
+.ft{
+  color: #A9A9A9;
+  position: absolute;
+  top:5%;
+  left:4%;
+}
+.stats{
+  position: absolute;
+  left: 6%;
+  top: 5%;
+  color: #A9A9A9;
+  font-size: 20px;
+}
+.abouttxt{
+  position: absolute;
+  left: 6%;
+  top: 5%;
+  color: #A9A9A9;
+  font-size: 20px;
+}
+.txt{
+  color:black;
+}
 #ft{
   background-color: white;
   color: black;
@@ -55,13 +82,11 @@
   position: absolute;
   left: 30%;
   top: 165%;
-  color: black;
 }
 #aiii{
   position: absolute;
   left: 57.5%;
   top: 165%;
-  color: black;
 }
 #aiiii{
   position: absolute;
@@ -70,8 +95,9 @@
   top:165%;
 }
 
+
 footerr{
-  color: blue;
+  color: white;
   width: 100%;
   height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-0.3.5&s=d8791fe0f9f4e735158400f9daf6a558&auto=format&fit=crop&w=1302&q=80');
@@ -136,6 +162,7 @@ footerr{
 }
 
 #bottomFont{
+  color: black;
   background-color: white;
   font-family: arial;
   text-align: center;
@@ -265,7 +292,7 @@ footerr{
 }
 
 body{
-  background: #1F1E2F;
+  background: white;
 }
 
 .hu{
@@ -320,9 +347,11 @@ body{
   top: 500px;
 }
 
+
 .location {
-  background: #27293D;
-  width: 320px;
+  background: white;
+  width: 100px;
+  height: 400px;
   margin:0 30px;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
@@ -331,14 +360,47 @@ body{
   margin: 0;
   text-align: center;
   position: absolute;
-  left: 1050px;
+  left: 1000px;
   top: 210px;
-  border-radius: 25px;
+  border-radius: 5px;
 
+}
+.about{
+  background: white;
+  width: 100px;
+  height: 200px;
+  margin:0 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 150px;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: 1000px;
+  top: 650px;
+  border-radius: 5px;
+
+}
+.financials{
+  background: white;
+  width: 700px;
+  height: 600px;
+  margin:0 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 150px;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: 200px;
+  top: 450px;
+  border-radius: 5px;
 }
 .location1 {
   background: #27293D;
-  width: 320px;
+  width: 400px;
   margin:0 30px;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
@@ -349,15 +411,15 @@ body{
   position: absolute;
   left: 1050px;
   top: 210px;
-  border-radius: 25px;
+  border-radius: 5px;
 
 }
 
 .inputTicker{
-  width: 300px;
+  width: 500px;
   height: 50px;
   top: 200px;
-
+  font-family: 'Josefin Sans', sans-serif;
   border-radius: 15px;
   background: white;
   font-family: arial;
@@ -367,9 +429,24 @@ body{
 
 .input {
   position: absolute;
-  top: 20%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #A9A9A9;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 5px;
+
+}
+.inputt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #A9A9A9;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 5px;
 
 }
 
@@ -837,3 +914,4 @@ footer p {
 }
 }
 /*Footer*/
+
