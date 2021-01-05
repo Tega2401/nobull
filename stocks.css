@@ -1,3 +1,353 @@
+#hd{
+  position: absolute;
+  left: 31%;
+  width: 49%;
+
+}
+#hdd{
+  position: absolute;
+  left: 70.5%;
+  width: 19.2%;
+  transform: rotate(-90deg);
+}
+#hd1{
+  position: absolute;
+  left: 31%;
+  width: 49%;
+}
+#hdd1{
+  position: absolute;
+  left: 70.5%;
+  width: 19.2%;
+  transform: rotate(-90deg);
+}
+#hd2{
+  position: absolute;
+  left: 31%;
+  width: 49%;
+}
+#hdd2{
+  position: absolute;
+  left: 70.5%;
+  width: 19.2%;
+  transform: rotate(-90deg);
+}
+
+
+
+#hd3{
+  position: absolute;
+  left: 31%;
+  width: 49%;
+}
+#hdd3{
+  position: absolute;
+  left: 70.5%;
+  width: 19.2%;
+  transform: rotate(-90deg);
+}
+#trade{
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  height: 40%;
+  width: 20%;
+}
+#trade1{
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  height: 40%;
+  width: 24%;
+}
+#trade2{
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  height: 40%;
+  width: 20%;
+}
+#trade3{
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  height: 40%;
+  width: 20%;
+}
+.nice{
+  background: white;
+  width: 90%;
+  height: 200px;
+  margin:0 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 150px;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: 50px;
+  top: 210px;
+  border-radius: 5px;
+}
+.box{
+  background-color:  #DCDCDD;
+  width: 20%;
+  color: black;
+
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: 31%;
+  border-radius: 8px;
+}
+.box2{
+  background-color:  #DCDCDD;
+  color: black;
+  width: 20%;
+
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  border-radius: 8px;
+}
+.amb{
+  position: absolute;
+  top: 45%;
+  left: 85%;
+  width: 12%;
+  height: 12%;
+  background-color: #00CC66;
+  border-radius: 5px;
+}
+.etrade{
+  color: black;
+  position: absolute;
+  left: 2%;
+  top: 10%;
+}
+.rating{
+  color: black;
+  position: absolute;
+  left: 2%;
+  top: 15%;
+}
+.bottomLine{
+  color: black;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.nice2{
+  background: white;
+  width: 90%;
+  height: 200px;
+  margin:0 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 150px;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: 50px;
+  top: 600px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+}
+.box3{
+  background-color:  #DCDCDD;
+  width: 20%;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: 31%;
+  border-radius: 8px;
+}
+.box4{
+  background-color:  #DCDCDD;
+  color: black;
+  width: 20%;
+
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  border-radius: 8px;
+}
+.amb1{
+  position: absolute;
+  top: 45%;
+  left: 85%;
+  width: 12%;
+  height: 12%;
+  background-color: #00CC66;
+  border-radius: 5px;
+}
+.robin{
+  color: black;
+  position: absolute;
+  left: 2%;
+  top: 10%;
+}
+.rating2{
+  color: black;
+  position: absolute;
+  left: 2%;
+  top: 15%;
+}
+.bottomLine2{
+  color: black;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.nice3{
+  background: white;
+  width: 90%;
+  height: 200px;
+  margin:0 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 150px;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: 50px;
+  top: 980px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+}
+.box5{
+  background-color:  #DCDCDC	;
+  width: 20%;
+  color: black;
+
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: 31%;
+  border-radius: 8px;
+}
+.box6{
+  background-color:  #DCDCDD	;
+  color: black;
+  width: 20%;
+
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  border-radius: 8px;
+}
+.amb2{
+  position: absolute;
+  top: 45%;
+  left: 85%;
+  width: 12%;
+  height: 12%;
+  background-color: #00CC66;
+  border-radius: 5px;
+}
+.fidelity{
+  color: black;
+  position: absolute;
+  left: 2%;
+  top: 10%;
+}
+.rating3{
+  color: black;
+  position: absolute;
+  left: 2%;
+  top: 15%;
+}
+.bottomLine3{
+  color: black;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.nice4{
+  background: white;
+  width: 90%;
+  height: 200px;
+  margin:0 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 150px;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: 50px;
+  top: 1350px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+}
+.box7{
+  background-color:  #DCDCDD;
+  width: 20%;
+  color: black;
+
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: 31%;
+  border-radius: 8px;
+}
+.box8{
+  background-color:  #DCDCDD;
+  color: black;
+  width: 20%;
+
+  height: 50px;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  border-radius: 8px;
+}
+.amb3{
+  position: absolute;
+  top: 45%;
+  left: 85%;
+  width: 12%;
+  height: 12%;
+  background-color: #00CC66;
+  border-radius: 5px;
+
+
+}
+.ameritrade{
+  color: black;
+  position: absolute;
+  left: 2%;
+  top: 10%;
+}
+.rating4{
+  color: black;
+  position: absolute;
+  left: 2%;
+  top: 15%;
+}
+.bottomLine4{
+  color: black;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+
+
+
+
+
 .inputtt{
   color:#A9A9A9;
   font-size: 20px;
@@ -205,9 +555,11 @@ footerr{
 }
 .nice{
   background-color: white;
+  box-shadow: 0 0 10px gray;
 }
 #pow{
   color: white;
+  font-family: 'Josefin Sans', sans-serif;
   width: 320px;
   padding: 150px;
   border: 1px solid black;
@@ -218,6 +570,7 @@ footerr{
   background: #27293D;
 
 }
+
 
 .learn{
 
@@ -424,6 +777,7 @@ body{
   background: white;
   font-family: arial;
 }
+
 
 
 
